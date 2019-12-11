@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>UK Election History 1918-2018</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sim_style.css" type="text/css" media="screen"/>
+</head>
+
+<meta charset="utf-8">
+<body>
+
+<!--    <div class="center">
+        <div id="speed">
+            <div class="togglebutton slow" data-val="slow">Slow</div>
+            <div class="togglebutton medium current" data-val="medium">Medium</div>
+            <div class="togglebutton fast" data-val="fast">Fast</div>
+            <div class="clr"></div>
+        </div>
+    </div>-->
+    <div class="container" style="width:1600px">
+        <div class="row">
+            <img src="img/commons_logo.png" width="400px" class="center">
+        </div>
+        <div class="row">
+            <div style="text-align:center;font-family:adobe-caslon-pro;font-size:200%;font-weight:bold">A Century of UK General Elections</div>
+        </div>
+        <div class="row">
+            <div id="year"></div>
+        </div>
+        <div class="row">
+            <div id="chart" class="col-lg-2" style="position:relative;width:1000px"></div>
+            <div class="col-lg-2" style="position:relative;width:500px">
+               <div id="image"></div>
+               <div id="note" style="text-align:center"></div>
+            </div>
+        </div>
+        <div class="row">
+            <footer style="font-size:25%">Created by @dr_keithmcnulty. Github: <a href="https://www.github.com/keithmcnulty/uk_election_bubble">keithmcnulty/uk_election_bubble</a>. Source: UK Parliament, Statistica, Wikipedia</footer>
+        </div>
+    </div>
+    <script src="js/d3-3-5-5.min.js"></script>
+    <script src="js/election_bubble.js"></script>
+</body>
+</html>
