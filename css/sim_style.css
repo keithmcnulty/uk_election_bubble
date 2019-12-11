@@ -41,7 +41,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   position:relative;
   top: 20px;
   left: 10px;
-  width: 75%;
+  width: 100%;
 }
 
 text, p, #current_time, h1, .togglebutton, .node {
