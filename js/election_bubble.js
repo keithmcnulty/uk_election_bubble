@@ -1,8 +1,8 @@
 
 var USER_SPEED = "medium";
 
-var width = 800,
-    height = 800,
+var width = 750,
+    height = 750,
 	padding = 1,
 	maxRadius = 3;
 	// color = d3.scale.category10();
@@ -258,7 +258,7 @@ d3.tsv("data/elec_results.tsv", function(error, data) {
 				.style("font-style", "italic")
 			    .transition()
 				.duration(500)
-				.style("top", "360px")
+				.style("top", "370px")
 				.style("color", "#000000")
 				.text(time_notes[notes_index].note);
 	    }
