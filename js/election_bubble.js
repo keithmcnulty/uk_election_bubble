@@ -295,8 +295,6 @@ d3.tsv("data/elec_results.tsv", function(error, data) {
 	setTimeout(timer, speeds[USER_SPEED]);
 
 
-
-
 	function tick(e) {
 	  var k = 0.04 * e.alpha;
 
