@@ -1,5 +1,5 @@
 
-var USER_SPEED = "medium";
+var USER_SPEED = "fast";
 
 var width = 750,
     height = 750,
@@ -20,7 +20,7 @@ var act_codes = [
 ];
 
 
-var speeds = { "slow": 300, "medium": 150, "fast": 100 };
+var speeds = { "slow": 200, "medium": 125, "fast": 75 };
 
 
 var time_notes = [
