@@ -220,7 +220,7 @@ d3.tsv("data/elec_results.tsv", function(error, data) {
 		var true_minute = curr_minute % 1440;
 		if (true_minute == time_notes[notes_index].start_minute) {
 		    d3.select("#year")
-		        .style("color", "#ffffff")
+		        .style("color", "#fffced")
 		        .style("text-align", "left")
 		        .style("font-size", "300%")
 				.style("font-family", "adobe-caslon-pro")
